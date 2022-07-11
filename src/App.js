@@ -22,7 +22,7 @@ function App() {
   //  arr.splice(2,2); //10, 50, 48, 36
   // console.log(arr);
 
-                        // OBJECT//
+                        // OBJECT
 // let obj = {
 // id : 11,
 // name : "react"
