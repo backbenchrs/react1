@@ -12,7 +12,7 @@ function App() {
   //  let ans=arr.some((a) => a>50);
   //  console.log(ans); // true
 
-//  console.log(arr.tostring());
+//  console.log(arr.tostring());  
 
   // let ans=arr.find((a)=> a>20);
   // console.log(ans); //50
