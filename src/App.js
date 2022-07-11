@@ -3,38 +3,25 @@ import './App.css';
 
 function App() {
 
-  // let x=10;
-  // x=x+2;
-  // console.log(x); //12
+  let arr=[10,50,80,44,48,36,];
+  let arr1=[39,88];
 
-  // const x=10;
-  // x=5;
-  // console.log(x); // error
+  // let newArr=arr.concat(arr1);
+  // console.log(newArr); //10,50,80,44,48,36 length:8
 
-    // let x=5;
-    // x=5;
-    // const x;
-    // x=5;
-    // console.log(x); //error
+  //  let ans=arr.some((a) => a>50);
+  //  console.log(ans); // true
 
-  // const x=5; // Global Scope
-  // {
-  //   const x=5; // Local Scope
-  // }
-  // console.log(x);
+//  console.log(arr.tostring());
 
-  // const display =(Name , id) => {
-  //   console.log(Name , id);
-  // }
-  // display("M" , 11); 
+  // let ans=arr.find((a)=> a>20);
+  // console.log(ans); //50
 
 
-
-  // Array 
-
-  let grid =[10,20,30,40,50,60,"m"];
-  console.log(grid[6] , grid);
-  return (
+  // arr.splice(1,0,66); //10, 66, 50, 80, 44, 48, 36
+  //  arr.splice(2,2); //10, 50, 48, 36
+  // console.log(arr);
+    return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
